@@ -1,4 +1,4 @@
-package com.cursoapirest.status;
+package com.cursoapirest.modulos.status;
 
 import org.springframework.http.ResponseEntity;
 
