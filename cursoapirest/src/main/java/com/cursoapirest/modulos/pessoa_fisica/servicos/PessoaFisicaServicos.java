@@ -6,11 +6,9 @@ import java.util.List;
 
 public interface PessoaFisicaServicos {
 
+    List<PessoaFisica> buscarTodos();
 
-    static List<PessoaFisica> findAll() {
-    }
+    PessoaFisica buscarPorId(Long id);
 
-    static List<PessoaFisica> buscarTodos() {
-        return null;
-    }
+    PessoaFisica inserir(PessoaFisica pessoaFisica);
 }

@@ -18,8 +18,8 @@ public class TestConfig implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        PessoaFisica pessoaFisica1 = new PessoaFisica(id; null, nome: "Maria da Silva", email: "mariadasilva@gmail.com", cpf: "116.253.900-33");
-        PessoaFisica pessoaFisica2 = new PessoaFisica(id: null, nome: "João da Silva", email: "joaodasilva@gmail.com",cpf:"576.825.520-69");
+        PessoaFisica pessoaFisica1 = new PessoaFisica(null, "Ana Clara Cardoso","anaclara@gmail.com","458.137.410-38");
+        PessoaFisica pessoaFisica2 = new PessoaFisica(null, "Pietro da Silva","pietrosilva@gmail.com","143.052.470-70");
 
         pessoaFisicaRepositorio.saveAll(Arrays.asList(pessoaFisica1, pessoaFisica2));
     }
